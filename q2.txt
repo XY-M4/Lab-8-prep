@@ -1,0 +1,9 @@
+
+Answer 1: When the y-axis points down, increasing θ rotates clockwise. When the y-axis points up, increasing θ rotates counterclockwise. This is because a positive 90° rotation maps (1, 0) to (0, 1), which points down or up depending on the coordinate system.
+
+Answer 2: It's better to apply scaling before translation because translating first would also scale the translation offset, causing the object to move unexpectedly when resized.
+
+Answer 3: The rectangle goes from (200, 150) to (600, 450), with width 400 and height 300. To find the normalized UV coordinates of (500, 301), we calculate its relative position within the rectangle.
+u = (500 - 200) / 400 = 0.75
+v = (301 - 150) / 300 = 151 / 300 ≈ 0.5033
+Therefore, the normalized UV coordinates are (0.75, 0.5033).
